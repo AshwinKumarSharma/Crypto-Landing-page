@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&family=Orbitron:wght@400;700&family=Oswald:wght@200;700&family=Roboto&family=Sansita+Swashed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+
+.logo img {
+    width: 70px;
+    position: relative;
+    right: 50px;
+    top: 5px;
+}
+
+.nav::before {
+    content: '';
+    background-color: #ffffff;
+    position: relative;
+    width: 1px;
+    height: 35px;
+    right: 15px;
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    right: 200px;
+}
+
+.nav-items {
+    list-style-type: none;
+    padding: 0 25px;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    font-size: 12px;
+}
+
+.btn {
+    padding: 5px 20px;
+    background-color: #de21a5;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    position: relative;
+    top: 5px;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: url(./images/2959.jpg);
+    background-size: 1400px 660px;
+    opacity: 0.9;
+}
+
+.main-section {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 350px;
+}
+
+.description {
+    width: 650px;   
+    color: #ffffff;
+    position: relative;
+    bottom: 80px;
+}
+
+.heading {
+ font-size: 65px;
+ letter-spacing: 1px;
+ padding-bottom: 8px;
+}
+
+.heading-description {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.btn-1 {
+    padding: 12px 20px;
+    position: relative;
+    bottom: 20px;
+    right: 350px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: #de21a5;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
