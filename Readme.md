@@ -15,4 +15,4 @@ Screenshot
 
 ## Time Taken to finish the project
 
-It took me approximately 2-2.5 hours to complete this project.
+- It took me approximately 2-2.5 hours to complete this project.
